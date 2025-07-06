@@ -7,7 +7,7 @@ server:
 #   key-store: classpath:keystore/edge.p12
 #   key-store-password: '{cipher}d59274473b196cebe288f849c442eba34aa497d14a13e10a23f824489e1c23ec'
 #   key-alias: localhost
-
+test: test
 spring:
   security:
     oauth2:
