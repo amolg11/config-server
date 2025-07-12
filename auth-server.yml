@@ -12,7 +12,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://discovery-ctr:8761/eureka/
   # from: https://github.com/spring-cloud-samples/eureka/blob/master/src/main/resources/application.yml
   server:
     waitTimeInMsWhenSyncEmpty: 0
