@@ -1,8 +1,8 @@
 app:
   eureka-username: u
   eureka-password: p
-  eureka-server: localhost
-  auth-server: localhost
+  eureka-server: discovery-ctr
+  auth-server: auth-ctr
 
 eureka:
   client:
