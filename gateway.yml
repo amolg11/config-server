@@ -9,6 +9,8 @@ server:
 #   key-alias: localhost
 test: test
 spring:
+  application:
+    name: gateway
   security:
     oauth2:
       resourceserver:
