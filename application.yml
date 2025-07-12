@@ -15,7 +15,7 @@ eureka:
     leaseExpirationDurationInSeconds: 5
 
 spring.rabbitmq:
-  host: 127.0.0.1
+  host: rabbitmq
   port: 5672
   username: guest
   password: guest
