@@ -12,8 +12,8 @@ springdoc:
       clientSecret: secret-writer
       useBasicAuthenticationWithAccessCodeGrant: true
   oAuthFlow:
-    authorizationUrl: https://localhost:8443/oauth2/authorize
-    tokenUrl: https://localhost:8443/oauth2/token
+    authorizationUrl: http://localhost:8443/oauth2/authorize
+    tokenUrl: http://localhost:8443/oauth2/token
 
 server.forward-headers-strategy: framework
 
