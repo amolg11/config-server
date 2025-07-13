@@ -1,6 +1,6 @@
 spring:
   application:
-    name: auth-server
+    name: auth-ctr
 server:
   port: 9999
   forward-headers-strategy: framework
