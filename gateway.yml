@@ -26,17 +26,17 @@ spring:
          - Path=/product-composite/**
  
        - id: oauth2-server
-         uri: lb://auth-server
+         uri: lb://auth-ctr
          predicates:
          - Path=/oauth2/**
 
        - id: oauth2-login
-         uri: lb://auth-server
+         uri: lb://auth-ctr
          predicates:
          - Path=/login/**
 
        - id: oauth2-error
-         uri: lb://auth-server
+         uri: lb://auth-ctr
          predicates:
          - Path=/error/**
 
